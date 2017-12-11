@@ -1,0 +1,176 @@
+html {
+    background-color: teal;   
+     padding: 0px;
+}
+body {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+header {
+
+overflow: hidden;
+height: 120px;
+
+}
+header .left {
+width: 80%;
+float: left;
+}
+header .right {
+padding-top: 40px;
+padding-right: 10px;
+width: 20%;
+float: right;
+
+}
+header .right a {
+    clear: both;
+    text-decoration: none;
+    width: 20px;
+    background-color: #babacc;
+    padding: 10px;
+    border: 2px solid #716097;
+    text-align: right;
+    border-radius: 5px;
+}
+header .right a:hover {
+    background-color: white;
+   }
+header .header-left img {
+    border-radius: 10px;
+}
+.menu {
+    clear: both;
+    background-color: #333;
+    color: #ddd;
+    text-decoration:none;
+    display: block;
+    padding: 5px;
+    border-bottom: 2px solid #ff2f2f; 
+}
+.menu a {
+    text-decoration: none;
+    color: #ddd;
+    padding:0px 10px;
+    background-color: #ff2f2f;
+    height: 100%;
+    border-right: 2px solid #eee;
+    margin-bottom: 0px;
+    padding-right: 12px;
+}
+.menu a:hover {
+    background-color: green;
+
+}
+.menu a:last-child {
+    border-right: none;
+}
+.content .post h3 {
+   background-color: #ddd;
+   color: black;
+   display: block;
+   padding: 5px;
+   margin-top: 5px;
+   
+}
+
+.categories h3 {
+    background-color: #ddd;
+    color: black;
+    display: block;
+    padding: 5px;
+}
+.categories a {
+    text-decoration: none;
+    padding: 5px 0px;
+    display: block;
+}
+footer {
+background-color: #333;
+
+}
+footer .up table {
+    padding: 10px;
+}
+footer .up td {
+    margin-left: 20px;
+}
+
+footer .up a {
+    text-decoration: none;
+    color: #eee6e6;
+}
+footer .up {
+    
+}
+footer .up .left {
+float: left;
+padding: 10px;
+}
+footer .up .right {
+float: right;
+padding-right: 20px;
+}
+footer .down {
+    clear: both;
+    display: block;
+    border: 2px solid #c0bbbb;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer .down:hover {
+    background-color: #ff2f2f;
+    color: #c0bbbb;
+    border: 2px solid #c0bbbb;
+    
+}
+footer .down a {
+    text-decoration: none;
+    color: #eee6e6;
+    
+}
+form {
+    
+    background-color: #fcf8f8;
+    padding: 10px;
+}
+label {
+    margin-left: 50px;
+    padding: 10px 0px;
+}
+form input {
+    
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+    margin-left: 50px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+form input[type="radio"] {
+    width: 3%;
+    margin-top: 15px;
+    
+}
+form input[type="checkbox"] {
+    width: 3%;
+} 
+
+button {
+    width: 83%;
+    padding: 10px;
+    margin:10px;
+    margin-left: 50px;
+    background-color: #333;
+    border: 2px solid #c0bbbb;
+    border-radius: 5px;
+    color: #eee6e6;
+}
+button:hover {
+    background-color: #ff2f2f;
+    color: #c0bbbb;
+    border: 2px solid #c0bbbb;
+}
+ 
